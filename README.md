@@ -8,15 +8,15 @@
 
 | Project | What it does |
 |---|---|
-| Customer Health Score Model | Combines a business-owned weighted scorecard with a churn-prediction model, validated against real churn outcomes (0.85 ROC-AUC; 0.6% churn Healthy vs. 58% churn Critical) |
-| QBR Automation Pipeline | Turns raw account data into polished, presentation-ready QBR documents with auto-generated narrative (one-command pipeline, 5 accounts, zero manual prep) |
-| Renewal Risk & Forecast Rollup | Risk-weights ARR by account health for a leadership-ready revenue-at-risk view, broken out by CSM and segment ($1.35M ARR at risk surfaced in a 90-day window on a $14.5M sample book) |
-| Support Ticket Theme & Sentiment Analyzer | Unsupervised NLP pipeline clustering tickets into themes and scoring sentiment, fully offline (94.3% sentiment accuracy, 74.7% theme clustering purity vs. ground truth) |
-| Automated Email Playbook Trigger Engine | Sends lifecycle-stage email sequences (onboarding drip, low-usage nudge, renewal reminder) triggered automatically by health score or usage thresholds |
-| Segmentation-Based Playbook Router | Routes accounts into different digital-touch cadences (email-only, hybrid, high-touch) based on ARR/segment/health — the core logic behind a tech-touch CS model |
-| Digital Onboarding Sequence Builder | Generates a multi-touch, automated onboarding sequence (email + in-app messaging) tailored to account segment, replacing 1:1 onboarding calls at scale |
-| Churn Save-Play Automation | Auto-triggers a save sequence (email + internal task/alert) the moment health crosses a critical threshold, no manual monitoring required |
-| Automated Health Alert System | Triggers alerts when an account's health score crosses a risk threshold, with reasoning attached — turns the health model into a workflow, not just a report |
+| [Customer Health Score Model](https://github.com/melissamcgowan/Customer-Health-Score-Model) | Combines a business-owned weighted scorecard with a churn-prediction model, validated against real churn outcomes (0.85 ROC-AUC; 0.6% churn Healthy vs. 58% churn Critical) |
+| [QBR Automation Pipeline](https://github.com/melissamcgowan/QBR-Automation-Pipeline) | Turns raw account data into polished, presentation-ready QBR documents with auto-generated narrative (one-command pipeline, 5 accounts, zero manual prep) |
+| [Renewal Risk & Forecast Rollup](https://github.com/melissamcgowan/Renewal-Risk-Forecast-Rollup) | Risk-weights ARR by account health for a leadership-ready revenue-at-risk view, broken out by CSM and segment ($1.35M ARR at risk surfaced in a 90-day window on a $14.5M sample book) |
+| [Support Ticket Theme & Sentiment Analyzer](https://github.com/melissamcgowan/Support-Ticket-Theme-Sentiment-Analyzer) | Unsupervised NLP pipeline clustering tickets into themes and scoring sentiment, fully offline (94.3% sentiment accuracy, 74.7% theme clustering purity vs. ground truth) |
+| [Automated Email Playbook Trigger Engine](https://github.com/melissamcgowan/Automated-Email-Playbook-Trigger-Engine) | Sends lifecycle-stage email sequences (onboarding drip, low-usage nudge, renewal reminder) triggered automatically by health score or usage thresholds |
+| [Segmentation-Based Playbook Router](https://github.com/melissamcgowan/Segmentation-Based-Playbook-Router) | Routes accounts into different digital-touch cadences (email-only, hybrid, high-touch) based on ARR/segment/health — the core logic behind a tech-touch CS model |
+| [Digital Onboarding Sequence Builder](https://github.com/melissamcgowan/Digital-Onboarding-Sequence-Builder) | Generates a multi-touch, automated onboarding sequence (email + in-app messaging) tailored to account segment, replacing 1:1 onboarding calls at scale |
+| [Churn Save-Play Automation](https://github.com/melissamcgowan/Churn-Save-Play-Automation) | Auto-triggers a save sequence (email + internal task/alert) the moment health crosses a critical threshold, no manual monitoring required |
+| [Automated Health Alert System](https://github.com/melissamcgowan/Automated-Health-Alert-System) | Triggers alerts when an account's health score crosses a risk threshold, with reasoning attached — turns the health model into a workflow, not just a report |
 
 *(More in progress — see the roadmap below.)*
 
@@ -30,4 +30,4 @@ Customer Success Leadership | Customer Success Operations | Gainsight | Salesfor
 
 ## What's next
 
-Actively building out this series — up next: an Expansion Opportunity Scorer, an Onboarding Time-to-Value Tracker, and a CSM Workload & Book-of-Business Balancer, building toward a unified "Customer 360" dashboard that ties all of these together. Follow along here or on LinkedIn.
+I'm actively building out this series, so what's up next: an Expansion Opportunity Scorer, an Onboarding Time-to-Value Tracker, and a CSM Workload & Book-of-Business Balancer, building toward a unified "Customer 360" dashboard that ties all of these together. Follow along here or on LinkedIn.
