@@ -1,0 +1,49 @@
+﻿# Melissa McGowan — AI-Powered Customer Success Portfolio
+
+15+ years leading customer success and CS operations, currently applying
+AI and data automation to core CS workflows — health scoring, renewal
+forecasting, QBR prep, and voice-of-customer analysis. This repo is the
+index for a growing series of hands-on projects, each with full code,
+methodology, and results documented.
+
+**Connect:** [LinkedIn](https://linkedin.com/in/melissarmcgowan) 
+
+---
+
+## Projects
+
+| Project | What it does | Key result |
+|---|---|---|
+| [Customer Health Score Model](https://github.com/melissamcgowan/Customer-Health-Score-Model) | Combines a business-owned weighted scorecard with a churn-prediction model, validated against real churn outcomes | 0.85 ROC-AUC; 0.6% churn (Healthy) vs. 58% churn (Critical) |
+| [QBR Automation Pipeline](https://github.com/melissamcgowan/qbr-automation-pipeline) | Turns raw account data into polished, presentation-ready QBR documents with auto-generated narrative | One-command pipeline, 5 accounts, zero manual prep |
+| [Renewal Risk & Forecast Rollup](https://github.com/melissamcgowan/Renewal-Risk-Forecast-Rollup) | Risk-weights ARR by account health for a leadership-ready revenue-at-risk view, broken out by CSM and segment | $1.35M ARR at risk surfaced in a 90-day window on a $14.5M sample book |
+| [Support Ticket Theme & Sentiment Analyzer](https://github.com/melissamcgowan/Support-Ticket-Theme-Sentiment-Analyzer) | Unsupervised NLP pipeline clustering tickets into themes and scoring sentiment, fully offline | 94.3% sentiment accuracy, 74.7% theme clustering purity vs. ground truth |
+
+*(More in progress — see the roadmap below.)*
+
+---
+
+## Why this series
+
+Most "AI-powered CS" conversations stay conceptual. These projects are
+my way of testing those ideas hands-on — building working systems, being
+honest about their limitations, and designing each one so it can plug
+into the others rather than existing as a one-off exercise. The health
+score model's churn predictions feed the renewal risk rollup's risk
+weights; the sentiment analyzer is designed to feed back into the health
+model as an early-warning signal.
+
+## Background
+
+Customer Success Leadership | Customer Success Operations | Gainsight |
+Salesforce | AI Enablement — 15+ years building enterprise SaaS CS and
+operations programs from the ground up, with a track record of
+significant churn reduction and multi-million dollar retention programs.
+
+## What's next
+
+Actively building out this series — upcoming projects include an
+expansion opportunity scorer, an onboarding time-to-value tracker, and
+a unified "Customer 360" dashboard tying all of these together. Follow
+along here or on LinkedIn.
+
