@@ -1,6 +1,6 @@
 # Melissa McGowan — AI-Powered Customer Success Portfolio
 
-10+ years leading customer success and CS operations, currently applying AI and data automation to core CS workflows — health scoring, renewal forecasting, QBR prep, digital-led CS motion, and voice-of-customer analysis. This repo is the index for a growing series of hands-on projects, each with full code, methodology, and results documented.
+10+ years leading customer success and CS operations, currently applying AI and data automation to core CS workflows: health scoring, renewal forecasting, QBR prep, digital-led CS motion, and voice-of-customer analysis. This repo indexes a growing series of hands-on projects, each with full code, methodology, and results documented.
 
 **Connect:** [LinkedIn](#)
 
